@@ -1,5 +1,7 @@
 #include <iostream>
 
+//Увы и ах, но походу магическое слово template надо приписывать к каждой шаблонной функции
+
 template<typename T>
 bool operator==(T const &x, T const &y) {
   return x == y;
