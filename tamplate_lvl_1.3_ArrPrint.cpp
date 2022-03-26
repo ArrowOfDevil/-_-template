@@ -7,7 +7,7 @@ void ArrPrint(const T *arr, int size) {
 }
 
 int main() {
-  system("chcp 65001");
+  system("chcp 65001"); // для отображения русского в CLion
   const int i_size = 10, d_size = 7, f_size = 10, c_size = 5;
   int iArray[i_size] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
   double dArray[d_size] = {1.2345, 2.234, 3.57, 4.67876, 5.346, 6.1545, 7.7682};
